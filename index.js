@@ -1,4 +1,4 @@
-const mostrarResumos = require("./mostrarResumo")
+const mostrarResumos = require("./controladores/mostrarResumo")
 const express = require("express")
 const app = express()
 
