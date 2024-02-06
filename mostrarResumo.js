@@ -23,8 +23,7 @@ const resumos = [
         id: 5,
         materia: "Biologia",
         texto: "Explora-se a vida, desde os níveis molecular e celular até a ecologia, abrangendo organismos, sistemas biológicos e processos evolutivos."
-    }
-]
+    }]
 
 const mostrarResumos = (req, rest) => {
     rest.send(resumos)
