@@ -1,3 +1,5 @@
+const mostrarResumos = require("./mostrarResumo")
+
 const express = require("express")
 
 const app = express()
@@ -10,10 +12,6 @@ const resumos = [
     }
 ]
 
-
-
-app.get("/login", (req, res) => {
-    res.send("Receba")
-})
+app.get("/login", mostrarResumos)
 
 app.listen(3000)
